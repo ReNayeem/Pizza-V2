@@ -93,10 +93,6 @@ nav{
     z-index: -1;
     transform: translateX(-50%) translateY(-50%) scale(0);
     background: #ffc107;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    -ms-transition: all .4s ease;
-    -o-transition: all .4s ease;
     transition: all .4s ease;
 }
 
