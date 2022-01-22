@@ -53,3 +53,54 @@ nav{
     line-height: 1.75rem;
     letter-spacing: 1px;
 }
+/* first section end */
+
+/* second section */
+.second-section h2{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.second-section a{
+    font-size: .8125rem;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.second-section .menu-item:hover a{
+    color: #ffc107;
+}
+
+.second-section .menu-img-design{
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.second-section .menu-img-design::before{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px dotted green;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%) scale(0);
+    background: #ffc107;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.second-section .menu-img-design:hover::before{
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+/* second section end */
