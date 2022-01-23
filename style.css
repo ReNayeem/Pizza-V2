@@ -133,5 +133,8 @@ nav{
 /* third section end */
 
 /* fourth section */
-
+.cards p{
+    font-size: 14px;
+    line-height: 22px;
+}
 /* fourth section end */
