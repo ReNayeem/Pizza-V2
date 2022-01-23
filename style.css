@@ -5,14 +5,19 @@
 }
 
 button{
-    font-weight: 700;
+    font-weight: 600 !important;
     border: 2px solid #ffc107 !important;
+    border-radius: 8px !important;
 }
 
 button:hover{
     background: transparent !important;
     color: #ffc107 !important;
     transition: all .4s ease-out 0s;
+}
+
+h2{
+    line-height: 3rem !important;
 }
 
 /* nav */
@@ -34,7 +39,7 @@ nav{
 }
 /* nav end */
 
-/* first section */
+/* first section & 3rd section something */
 .first-section{
     background: url(images/bg/bg-1.jpg) no-repeat center; 
     background-size: cover; 
@@ -47,7 +52,7 @@ nav{
     text-shadow: 1px 0 6px black;
 }
 
-.first-section p{
+.first-section, .third-section p{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.75rem;
@@ -100,3 +105,29 @@ nav{
     transform: translateX(-50%) translateY(-50%) scale(1);
 }
 /* second section end */
+
+/* third section */
+.third-section p{
+    color: #b0b0b0 !important;
+}
+
+.third-section li{
+    font-size: 1rem;
+    color: #b0b0b0;
+    line-height: 32px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.third-section li::before{
+    position: absolute;
+    left: -2.1875rem;
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    font-family: "Font Awesome 5 Free";
+    content: '\f00c';
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+}
+/* third section end */
