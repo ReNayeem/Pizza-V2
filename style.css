@@ -39,7 +39,7 @@ nav{
 }
 /* nav end */
 
-/* first section & 3rd section something */
+/* first section & 3rd, 4th section something */
 .first-section{
     background: url(images/bg/bg-1.jpg) no-repeat center; 
     background-size: cover; 
@@ -52,7 +52,7 @@ nav{
     text-shadow: 1px 0 6px black;
 }
 
-.first-section, .third-section p{
+.first-section p, .third-section p, .fourth-section p{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.75rem;
@@ -60,8 +60,8 @@ nav{
 }
 /* first section end */
 
-/* second section */
-.second-section h2{
+/* second section & 4th section something */
+.second-section h2, .fourth-section h2{
     font-weight: 700;
     font-size: 2rem;
 }
@@ -106,8 +106,8 @@ nav{
 }
 /* second section end */
 
-/* third section */
-.third-section p{
+/* third section & 4th section something */
+.third-section p, .fourth-section p{
     color: #b0b0b0 !important;
 }
 
@@ -131,3 +131,7 @@ nav{
     font-weight: 900;
 }
 /* third section end */
+
+/* fourth section */
+
+/* fourth section end */
