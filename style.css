@@ -101,7 +101,7 @@ nav{
     transition: all .4s ease;
 }
 
-.second-section .menu-img-design:hover::before{
+.second-section .menu-item:hover .menu-img-design::before{
     transform: translateX(-50%) translateY(-50%) scale(1);
 }
 /* second section end */
