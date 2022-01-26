@@ -20,6 +20,14 @@ h2{
     line-height: 3rem !important;
 }
 
+.rounder{
+    border-radius: 20px;
+}
+
+.rounder-img{
+    border-radius: 20px 20px 0 0;
+}
+
 /* nav */
 nav{
     background-color: rgb(51, 51, 51, .4);
@@ -144,3 +152,63 @@ nav{
     line-height: 1.2rem;
 }
 /* fourth section end */
+
+/* testimonial section */
+.wrapper{
+    padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
+}
+
+.testimonial-section{
+    background: #00a149;
+    font-family: var(--poppins);
+}
+
+.testimonial-section h2{
+    color: white;
+}
+
+.testimonial-section .carousel-item{
+    padding: 10rem 3.125rem;
+    border-radius: .9375rem;
+    text-align: center;
+}
+
+.testimonial-section .carousel-caption{
+    height: 280px;
+}
+
+.testimonial-section .carousel-caption img{
+    max-width: 5rem;
+    border-radius: 50%;
+}
+
+.testimonial-section .carousel-caption p{
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    font-weight: 300;
+    color: white;
+    padding: 0 11% .625rem;
+}
+
+.testimonial-section .carousel-indicators button{
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border-radius: 50%;
+    border: none !important;
+    opacity: .3;
+}
+
+.testimonial-section .carousel-indicators button:hover{
+    background: white !important;
+}
+
+.testimonial-section .carousel-indicators button.active{
+    opacity: 1;
+}
+
+.testimonial-section .carousel-indicators{
+    bottom: -2.8125rem;
+}
+/* testimonial section end */
