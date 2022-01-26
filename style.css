@@ -211,3 +211,68 @@ nav{
     bottom: -2.8125rem;
 }
 /* testimonial section end */
+
+/* footer */
+.footer{
+    background: black;
+}
+
+.footer .footer-link{
+    font-size: 1rem;
+    color: black;
+    padding: 0 1.875rem;
+}
+
+.footer .footer-link:hover{
+    color: white;
+}
+
+.footer .footer-social a i{
+    font-size: 1.5rem;
+    color: white;
+    padding: 0 1rem;
+}
+
+.footer .footer-social a:hover i{
+    color: #ffc107;
+}
+
+.newsletter .form-control{
+    height: 3.225rem;
+    padding: 0 1.25rem;
+    font-size: .875rem;
+    width: 100%;
+    border-radius: 0;
+    background: transparent;
+    border: .1875rem solid white;
+    color: black;
+    font-weight: 700;
+}
+
+.newsletter .footer-button{
+    height: 3.225rem;
+    padding: 0 1.25rem;
+    font-size: .875rem;
+    border-radius: 0 !important;
+    background-color: white;
+    border: .1875rem solid white !important;
+    color: black;
+    font-weight: 700;
+}
+
+.newsletter:hover .form-control{
+    border: .1875rem solid #ffc107;
+    color: white;
+}
+
+.newsletter:hover .footer-button{
+    background: #ffc107;
+    border: .1875rem solid #ffc107 !important;
+}
+
+.newsletter .form-control:hover, .newsletter .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: #ffc107;
+}
+/* footer end*/
