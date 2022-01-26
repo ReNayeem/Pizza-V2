@@ -155,7 +155,7 @@ nav{
 
 /* testimonial section */
 .wrapper{
-    padding-top: 4.25rem;
+    padding-top: 3.25rem;
     padding-bottom: 4.25rem;
 }
 
@@ -180,7 +180,6 @@ nav{
 
 .testimonial-section .carousel-caption img{
     max-width: 5rem;
-    border-radius: 50%;
 }
 
 .testimonial-section .carousel-caption p{
