@@ -1,3 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400;500&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@700&display=swap');
+
+/* variable define */
+:root{
+    --poppins: 'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --inter: 'Inter', sans-serif;
+    --manrope: 'Manrope', sans-serif;
+}
+/* variable define end */
+
+li{
+    font-family: var(--poppins) !important;
+}
+
+h1{
+    font-family: var(--manrope);
+}
+
+h2{
+    font-family: var(--inter);
+}
+
+h5{
+    font-family: var(--poppins);
+}
+
+p{
+    font-family: var(--poppins);
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,16 +39,13 @@ button{
     font-weight: 600 !important;
     border: 2px solid #ffc107 !important;
     border-radius: 8px !important;
+    font-family: var(--poppins);
 }
 
 button:hover{
     background: transparent !important;
     color: #ffc107 !important;
     transition: all .4s ease-out 0s;
-}
-
-h2{
-    line-height: 3rem !important;
 }
 
 .rounder{
@@ -35,7 +63,7 @@ nav{
 
 .nav-link{
     font-size: .9375rem;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: capitalize;
     color: whitesmoke !important;
     letter-spacing: 1px;
@@ -57,7 +85,7 @@ nav{
 .first-section h1{
     font-size: 3.5rem;
     margin-bottom: 1rem;
-    text-shadow: 1px 0 6px black;
+    text-shadow: 1px 0 6px rgb(58, 57, 57);
 }
 
 .first-section p, .third-section p, .fourth-section p{
@@ -80,7 +108,7 @@ nav{
     display: inline-block;
     text-transform: uppercase;
     font-weight: 700;
-    color: black;
+    color: #1e1d23;
     text-decoration: none;
 }
 
@@ -214,12 +242,12 @@ nav{
 
 /* footer */
 .footer{
-    background: black;
+    background: #1e1d23;
 }
 
 .footer .footer-link{
     font-size: 1rem;
-    color: black;
+    color: #1e1d23;
     padding: 0 1.875rem;
 }
 
@@ -245,7 +273,7 @@ nav{
     border-radius: 0;
     background: transparent;
     border: .1875rem solid white;
-    color: black;
+    color: #1e1d23;
     font-weight: 700;
 }
 
@@ -256,7 +284,7 @@ nav{
     border-radius: 0 !important;
     background-color: white;
     border: .1875rem solid white !important;
-    color: black;
+    color: #1e1d23;
     font-weight: 700;
 }
 
