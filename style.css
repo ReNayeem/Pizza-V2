@@ -37,7 +37,7 @@ p{
 
 html{
     scrollbar-width: normal;
-    scrollbar-color: #6b8922 black;
+    scrollbar-color: #00a149 #333333;
 }
     
 html::-webkit-scrollbar{
@@ -45,12 +45,12 @@ html::-webkit-scrollbar{
 }
     
 html::-webkit-scrollbar-thumb{
-    background-color: #6b8922;
+    background-color: #00a149;
 }
     
     
 html::-webkit-scrollbar-track{
-    background-color: black;
+    background-color: #333333;
 }
     
 
