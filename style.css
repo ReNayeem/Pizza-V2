@@ -35,6 +35,25 @@ p{
     padding: 0;
 }
 
+html{
+    scrollbar-width: normal;
+    scrollbar-color: #6b8922 black;
+}
+    
+html::-webkit-scrollbar{
+    width: 1vw;
+}
+    
+html::-webkit-scrollbar-thumb{
+    background-color: #6b8922;
+}
+    
+    
+html::-webkit-scrollbar-track{
+    background-color: black;
+}
+    
+
 button{
     font-weight: 600 !important;
     border: 2px solid #ffc107 !important;
